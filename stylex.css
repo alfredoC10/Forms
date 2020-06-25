@@ -1,25 +1,31 @@
 
-
-.main-container{
-  display: inline-flex;
-  flex-direction: column;
-  justify-items: center;
-  padding: 100px 8px 8px 8px;
-  background-color: orange;
+body{
+  background-color: #eceef1;
 }
 
+#main{
+  width: 100%;
+}
+
+.style-flex{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 60%;
+}
+
+
+
 .logos-container{
-  display: inline-block; 
-  width: 500px;
-  height: 100px;
-  background-color: green;
+  width: 35%;
+  background-color: transparent;
+  margin-top: 60px;
+  align-items: center;
 }
 
 .form-container{
-  display: inline-block; 
-  width: 500px;
-  height: 600px;
-  justify-items: center;
-  padding: 56px 46px 46px 46px;
-  background-color: rgb(34, 143, 119);
+  margin-top: 20px;
+  align-items: center;
+  background-color: white;
+  width: 35%;
 }
