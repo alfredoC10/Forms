@@ -60,6 +60,27 @@ body > label{
   width: 35%;
 }
 
+#form-button {
+  width: 328px;
+  height: 44px;
+  background-color: #0077C5;
+  border: none;
+  margin-top: 44px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 black;
+}
+
+#form-button span{
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-left: 6px;
+}
+
+.padlock-style{
+  color: white;
+}
+
 .input-style{
  width: 320px;
  height: 32px;
