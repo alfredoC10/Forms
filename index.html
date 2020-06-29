@@ -3,7 +3,6 @@
     <head>
         <link rel="stylesheet" href="stylex.css" type="text/css">
         <script src="https://kit.fontawesome.com/13a4f3443f.js" crossorigin="anonymous"></script>
-
     </head>
     <body>
       <main id="main">
@@ -22,16 +21,21 @@
           <div id="logos-container" class="style-flex">
             <img id="intuit-logo">
             <h2>Intuit</h2>
-            <div>
-              <span>mint</span>
-              <span>quickbooks</span>
-              <span>turbotax</span>
-            </div>
+            <section>
+              <ul>
+                <li id="icon-one" ></li>
+                <li><span>mint</span></li>
+                <li id="icon-two"></li>
+                <li><span>quickbooks</span></li>
+                <li id="icon-three"></li>
+                <li><span>turbotax</span></li>
+              </ul>
+            </section>
           </div>
           <div id="form-container" class="style-flex">
               <form class="style-flex style-center"> 
                 <h2 id="form-title" class="text-style">Create an Intuit account</h2>
-                <h5>One account for everything Intuit, including Mint. Learn more</h5>
+                <h5 id="form-description">One account for everything Intuit, including Mint. <br><a>Learn more</a></h5>
                 <label class="text-alignment label-style">Email address</label>
                 <input class="input-style" type="text" name="Email">
                 <label class="text-alignment label-style">Phone (recommended)</label>
@@ -44,10 +48,10 @@
                   <span>Create Account</span>
                 </button>
                 <div id="statement">
-                  <h5>By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.</h5>
+                  <h5>By clicking Create account, you agree to our <br><a>Terms</a> and have read and acknowledge our <a>Privacy Statement</a>.</h5>
                 </div>
                 <div id="form-footer">
-                  <h5>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</h5>
+                  <h5>Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.</h5>
                 </div>
               </form>
              
@@ -57,8 +61,19 @@
           </div>
         </div>
       </main>
-      <footer>
-
+      <div id="privacy-tab">
+        <span>Privacy Settings</span>
+      </div>
+      <footer id="footer">
+        <div id="copyright-container" class="style-center">
+          <div id="politics" class="style-center">
+            <a><span>Legal</span></a>
+            <a><span>Privacy</span></a>
+            <a><span>Security</span></a>
+          </div>
+          <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc</span>
+          <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+        </div>
       </footer>
         
     </body>
