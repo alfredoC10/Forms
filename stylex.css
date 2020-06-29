@@ -2,6 +2,7 @@ body {
   background-color: #eceef1;
   height: 1000px;
   width: 100%;
+  margin-top: 0px;
 }
 
 #main {
@@ -14,10 +15,63 @@ body {
   width: 100%;
 }
 
+#navigation-wrapper{
+  justify-content: flex-end;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding: 10px 35px 10px 35px;
+  display: flex;
+}
+
+#navigation-alignment{
+  display: inline-flex;
+  flex-direction: column;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 2px;
+}
+
+#navigation-alignment span{
+  display: inline-block;
+  font-size: 13px;
+}
+
+#account-recovery{
+  color: #0077c5;
+}
+
+#sign-in-button{
+  width: 103px;
+  height: 35px;
+  background: #0077c5;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 0 20px 0 20px;
+  margin-left: 10px;
+}
+
+#sign-in-button i{
+  font-size: 10px;
+}
+
+#sign-in-text{
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+button > span {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-left: 6px;
+}
+
 #content {
   background-color: transparent;
   width: 380px;
-  margin-top: 60px;
+  
 }
 
 .style-flex {
@@ -100,13 +154,6 @@ form > h5 {
   margin-top: 20px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 black;
-}
-
-#form-button span {
-  font-size: 16px;
-  font-weight: 300;
-  color: white;
-  margin-left: 6px;
 }
 
 .padlock-style {
