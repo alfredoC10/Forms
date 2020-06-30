@@ -5,14 +5,23 @@
 }
 body {
   background-color: #eceef1;
+<<<<<<< HEAD
+=======
+  width: 100%;
+  margin-top: 0px;
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
 }
 
 .main-content {
   width: 100%;
 }
 
+<<<<<<< HEAD
 #navigation-wrapper {
   justify-content: flex-end;
+=======
+#main-content {
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   width: 100%;
   padding: 10px 35px 10px 35px;
   display: flex;
@@ -63,9 +72,68 @@ button > span {
   margin-left: 6px;
 }
 
+#navigation-wrapper{
+  justify-content: flex-end;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding: 10px 35px 10px 35px;
+  display: flex;
+}
+
+#navigation-alignment{
+  display: inline-flex;
+  flex-direction: column;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 2px;
+}
+
+#navigation-alignment span{
+  display: inline-block;
+  font-size: 13px;
+}
+
+#account-recovery{
+  color: #0077c5;
+  cursor: pointer;
+}
+
+#sign-in-button{
+  width: 103px;
+  height: 35px;
+  background: #0077c5;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 0 20px 0 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#sign-in-button i{
+  font-size: 10px;
+}
+
+#sign-in-text{
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+button > span {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-left: 6px;
+}
+
 #content {
   background-color: transparent;
   width: 380px;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
 }
 
 .style-flex {
@@ -101,22 +169,35 @@ h2 {
   width: 380px;
 }
 
+<<<<<<< HEAD
 #content > section {
   margin: auto;
 }
 
 .form-title {
+=======
+#content > section{
+  margin: auto;
+}
+
+#form-title {
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   font-weight: 100;
   font-size: 25px;
   color: #4c4c4c;
   margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .form-description {
+=======
+#form-description{
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   font-weight: lighter;
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 .logos-container {
   background-color: transparent;
   align-items: center;
@@ -129,24 +210,43 @@ h2 {
 }
 
 ul {
+=======
+#logos-container {
+  background-color: transparent;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+ul{
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 li {
   float: left;
+=======
+li{
+  float:left;
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   margin-right: 10px;
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 li > span {
+=======
+li > span{
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   font-size: 18px;
   color: #7e7e7e;
   font-weight: 100;
 }
 
+<<<<<<< HEAD
 #icon-one {
   width: 20px;
   height: 20px;
@@ -169,13 +269,37 @@ li > span {
   margin-right: 6px;
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjZDUyYjFlIi8+PHBhdGggZD0iTS01NzkuMSwxMDA1LjdjLTIuOC0yLTUuNi00LjItOC4yLTYuNmMtMSwyLjItMS44LDQuNC0yLjYsNi42YzQuMiwzLjYsOS44LDcuNiwxMy44LDEwIGM1LTEzLDEyLjgtMjEuNCwyMC40LTI3LjRjLTEtMi0yLjItMy44LTMuOC01LjRDLTU2Ny43LDk4OC45LTU3NC4zLDk5Ni43LTU3OS4xLDEwMDUuN3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=)
     no-repeat;
+=======
+#icon-one{
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGcgZmlsbD0ibm9uZSI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMTAiIGZpbGw9IiMwMEE2QTQiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTAgMi43NzdjLS42NTguNjYtNS4xNzQgNS4zMDktNS4xNzQgOC45MyAwIDIuNTc4IDIuMDU1IDMuNDMyIDUuMTc0IDUuNTU0IDMuMTItMi4xMjIgNS4xNzQtMi45NzYgNS4xNzQtNS41NTQgMC0zLjYyMS00LjUxNS04LjI3LTUuMTc0LTguOTN6bTAgMTIuNzQ4bC0uNjA3LS4zOTdjLTIuMzItMS41MTEtMy4xMjMtMi4xMDEtMy4xMjMtMy40MjEgMC0yLjA0NCAyLjAyOC00Ljg4OCAzLjczLTYuODE2djEwLjYzNHoiLz48L2c+PC9zdmc+) no-repeat;
+}
+
+#icon-two{
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjMmNhMDFjIi8+PHBhdGggZD0iTS01OTEuNSw5OTYuNWMwLDUuNCw0LjQsOS44LDkuOCw5LjhoMS40di0zLjZoLTEuNGMtMy40LDAtNi4yLTIuOC02LjItNi4yczIuOC02LjIsNi4yLTYuMmgzLjQgYzAsMCwwLDE4LjYsMCwxOC44YzAsMiwxLjYsMy42LDMuNiwzLjZ2LTI2LjJjMCwwLTMuOCwwLTcsMEMtNTg3LjMsOTg2LjctNTkxLjUsOTkxLjEtNTkxLjUsOTk2LjV6IE0tNTY1LjEsOTg2LjdoLTEuNHYzLjZoMS40IGMzLjQsMCw2LjIsMi44LDYuMiw2LjJzLTIuOCw2LjItNi4yLDYuMmgtMy40YzAsMCwwLTE4LjYsMC0xOC44YzAtMi0xLjYtMy42LTMuNi0zLjZ2MjYuMmMwLDAsMy44LDAsNywwYzUuNCwwLDkuOC00LjQsOS44LTkuOCBDLTU1NS41LDk5MS4xLTU1OS43LDk4Ni43LTU2NS4xLDk4Ni43eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) no-repeat;
+}
+
+#icon-three{
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjZDUyYjFlIi8+PHBhdGggZD0iTS01NzkuMSwxMDA1LjdjLTIuOC0yLTUuNi00LjItOC4yLTYuNmMtMSwyLjItMS44LDQuNC0yLjYsNi42YzQuMiwzLjYsOS44LDcuNiwxMy44LDEwIGM1LTEzLDEyLjgtMjEuNCwyMC40LTI3LjRjLTEtMi0yLjItMy44LTMuOC01LjRDLTU2Ny43LDk4OC45LTU3NC4zLDk5Ni43LTU3OS4xLDEwMDUuN3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=) no-repeat;
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
 }
 
 #form-container {
   background-color: white;
   border: 1px solid #c7c7c7;
   margin-bottom: 34px;
+<<<<<<< HEAD
   padding-top: 25px;
+=======
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
 }
 
 form > h5 {
@@ -183,10 +307,21 @@ form > h5 {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 .text-form {
   margin-right: 100px;
   margin-top: 0;
   margin-bottom: 0;
+=======
+#text-form {
+  width: 380px;
+  position: relative;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: lighter;
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
 }
 
 .text-alignment {
@@ -204,13 +339,7 @@ form > h5 {
   margin-top: 30px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 black;
-}
-
-#form-button span {
-  font-size: 16px;
-  font-weight: 300;
-  color: white;
-  margin-left: 6px;
+  cursor: pointer;
 }
 
 .padlock-style {
@@ -228,14 +357,23 @@ form > h5 {
   width: 330px;
 }
 
+<<<<<<< HEAD
 .statement > h5 {
+=======
+#statement > h5 {
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   font-size: 12px;
   font-style: italic;
   line-height: 20px;
   margin: 35px 0;
 }
 
+<<<<<<< HEAD
 .form-footer {
+=======
+
+#form-footer {
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   background-color: #eceef1;
   padding: 20px 0;
   position: relative;
@@ -268,6 +406,7 @@ form a {
   border-top-right-radius: 3px;
 }
 
+<<<<<<< HEAD
 .privacy-tab > span {
   color: white;
   margin: auto;
@@ -289,18 +428,79 @@ footer {
 }
 
 #politics {
+=======
+form div h5{
+  font-size: 10px;
+  color: #757575;
+  font-weight: lighter;
+}
+
+form a {
+  color: #0077c5;
+  cursor: pointer;
+}
+
+#privacy-tab {
+  position: fixed;
+  right: 85px;
+  bottom: 0;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  width: 125px;
+  background-color: #666666;
+  cursor: pointer;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#privacy-tab > span{
+    color: white;
+    margin: auto;
+}
+/*#footer {
+  padding: 20px 0 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+#copyright-container{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#copyright-container span{
+  font-size: small;
+}
+
+#politics{
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   display: flex;
   justify-content: space-between;
   width: 170px;
 }
 
+<<<<<<< HEAD
 #politics > a > span{
   color: #0077c5;
 }
 
 #politics > a:hover {
+=======
+#politics > a:hover{
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
   cursor: pointer;
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 
+=======
+/*#copyright-container span{
+  display: inline;
+  justify-content: center;
+}*/
+>>>>>>> a94cc002d85a3a2b9bd31d83cbddede70087a01b
