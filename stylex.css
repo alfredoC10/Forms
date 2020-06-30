@@ -28,11 +28,29 @@ body {
   padding-top: 2px;
 }
 
+body > div,
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4c4c4c;
+}
+
 button > span {
   font-size: 16px;
   font-weight: 300;
   color: white;
   margin-left: 6px;
+}
+
+li > span {
+  font-size: 18px;
+  color: #7e7e7e;
+  font-weight: 100;
 }
 
 .navigation-alignment span {
@@ -82,18 +100,6 @@ button > span {
   text-align: center;
 }
 
-body > div,
-h1,
-h2,
-h3,
-h4,
-h5,
-span,
-label {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #4c4c4c;
-}
-
 div > label {
   margin-left: 30px;
 }
@@ -141,12 +147,6 @@ li {
   float: left;
   margin-right: 10px;
   cursor: pointer;
-}
-
-li > span {
-  font-size: 18px;
-  color: #7e7e7e;
-  font-weight: 100;
 }
 
 #icon-one {
