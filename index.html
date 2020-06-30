@@ -1,55 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="stylex.css" type="text/css">
-        <script src="https://kit.fontawesome.com/13a4f3443f.js" crossorigin="anonymous"></script>
-
+      <link rel="stylesheet" href="stylex.css" type="text/css">
+      <script src="https://kit.fontawesome.com/13a4f3443f.js" crossorigin="anonymous"></script>
+      <meta charset="UTF-8">
+      <title>Intuit</title>
     </head>
+         
     <body>
-      <main id="main">
-        <div id ="main-content" class="style-flex"> <!--this id has to go-->
+      <main>
+        <div class="style-flex main-content"> 
+          <div id="navigation-wrapper">
+            <div class="navigation-alignment">
+              <span>Already have an intuit account?</span>
+              <span id="account-recovery">I forgot my User ID or Password</span>
+            </div>
+            <button class="sign-in-button">
+              <i class="fas fa-unlock-alt padlock-style"></i>
+              <span class="sign-in-text">Sign In</span>
+            </button>
+          </div>
           <div id="content" class="style-flex style-center">
-          <div id="logos-container" class="style-flex">
-            <img id="intuit-logo">
-            <h2>Intuit</h2>
+          <div class="style-flex logos-container">
+            <img alt="intuit logo" src="data:image/svg+xml;base64,PHN2ZyBpZD0iQXJ0d29yayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjUzLjk1IDEyNC42NCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM2YzZlNzB9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxvZ29fQ2xlYXJzcGFjZSIgZGF0YS1uYW1lPSJMb2dvICZhbXA7IENsZWFyc3BhY2UiPjxnIGlkPSJMb2dvIj48cGF0aCBpZD0iXyIgZGF0YS1uYW1lPSLCriIgY2xhc3M9ImNscy0xIiBkPSJNNDg1LjQzLDMyOC40YTAuOTQsMC45NCwwLDAsMC0xLjExLS44OGgtMXYzaDAuNTN2LTEuMjVoMC4zOWwwLjcsMS4yNWgwLjY1bC0wLjgxLTEuMzFBMC43OSwwLjc5LDAsMCwwLDQ4NS40MywzMjguNFptLTEuNjIuNDNWMzI4aDAuNDlhMC40OCwwLjQ4LDAsMCwxLC41OS40MSwwLjUzLDAuNTMsMCwwLDEtLjY1LjQ0aC0wLjQzWm0wLjUtMi40NUEyLjY0LDIuNjQsMCwxLDAsNDg3LDMyOSwyLjY1LDIuNjUsMCwwLDAsNDg0LjMxLDMyNi4zOFptMCw0Ljg5YTIuMjQsMi4yNCwwLDEsMSwyLjI0LTIuMjRBMi4yNSwyLjI1LDAsMCwxLDQ4NC4zMSwzMzEuMjdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjY5LjAyIC0yNDMuNjgpIi8+PHBhdGggaWQ9IkludHVpdCIgY2xhc3M9ImNscy0xIiBkPSJNMzA1LDI5NS4yN2g5djM2aC05di0zNlptMzguMDktMS4wNUExMi4yNiwxMi4yNiwwLDAsMCwzMzEuOTQsMzAxaC0wLjE1di01Ljc3aC04LjU1djM2aDl2LTE5LjhjMC00LjgsMi43LTkuNzUsOC40LTkuNzVzNi43NSw1LjMzLDYuNzUsOS42djIwaDl2LTIyLjVDMzU2LjM5LDMwMS40MiwzNTIuNDksMjk0LjIyLDM0My4xMiwyOTQuMjJabTc3LjQ2LDIwLjg1YzAsNC44LTIuNyw5Ljc1LTguNCw5Ljc1cy02Ljc1LTUuMzItNi43NS05LjZ2LTIwaC05djIyLjVjMCw3LjM1LDMuOSwxNC41NSwxMy4yOCwxNC41NWExMi4yNSwxMi4yNSwwLDAsMCwxMS4xNy02LjgzSDQyMXY1Ljc4aDguNTV2LTM2aC05djE5LjhabTE4LjIxLDE2LjJoOXYtMzZoLTl2MzZabS03Ny44MS0yOGgxMC4wOXYyOGg5di0yOGgxMC4wOXYtOEgzNjF2OFptMTQuNTktMTIuNjdhNS40NCw1LjQ0LDAsMSwwLTUuNDQtNS40NEE1LjQ0LDUuNDQsMCwwLDAsMzc1LjU3LDI5MC41NlptNzguNTMsNC42OXY4aDEwLjA5djI4aDl2LTI4aDEwLjA5di04SDQ1NC4xWm0xNC41OS00LjY5YTUuNDQsNS40NCwwLDEsMC01LjQ0LTUuNDRBNS40NCw1LjQ0LDAsMCwwLDQ2OC42OSwyOTAuNTZaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjY5LjAyIC0yNDMuNjgpIi8+PC9nPjxwYXRoIGlkPSJDbGVhcnNwYWNlIiBmaWxsPSJub25lIiBkPSJNMCAwSDI1My45NVYxMjQuNjRIMHoiLz48L2c+PC9zdmc+">
             <div>
-              <span>mint</span>
-              <span>quickbooks</span>
-              <span>turbotax</span>
+              <ul>
+                <li id="icon-one" ></li>
+                <li><span>mint</span></li>
+                <li id="icon-two"></li>
+                <li><span>quickbooks</span></li>
+                <li id="icon-three"></li>
+                <li><span>turbotax</span></li>
+              </ul>
             </div>
           </div>
-          <div id="form-container" class="style-flex">
+          <section id="form-container" class="style-flex">
               <form class="style-flex style-center"> 
-                <h2 id="form-title" class="text-style">Create an Intuit account</h2>
-                <h5>One account for everything Intuit, including Mint. Learn more</h5>
-                <label class="text-alignment label-style">Email address</label>
+                <h2 class="form-title text-style">Create an Intuit account</h2>
+                <h5 class="form-description">One account for everything Intuit, including Mint. <br><a>Learn more</a></h5>
+                <div class="text-alignment">
+                  <label class="label-style">Email address</label>
+                </div>
                 <input class="input-style" type="text" name="Email">
-                <label class="text-alignment label-style">Phone (recommended)</label>
+                <div class="text-alignment">
+                  <label class="label-style">Phone (recommended)</label>
+                </div>
                 <input class="input-style" type="text" name="Phone">
-                <h5 id="text-form">Standard call, messaging or data rates may apply.</h5>
-                <label class="text-alignment label-style">Password</label>
+                
+                <div>
+                  <h5 class="text-form">Standard call, messaging or data rates may apply.</h5>
+                </div>
+                <div class="text-alignment">
+                  <label class="label-style">Password</label>
+                </div>
                 <input class="input-style" type="text" name="Password">
-                <button id=form-button>
+                <button class=form-button>
                   <i class="fas fa-unlock-alt padlock-style"></i>
                   <span>Create Account</span>
                 </button>
-                <div id="statement">
-                  <h5>By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.</h5>
+                <div class="statement">
+                  <h5>By clicking Create account, you agree to our <br><a>Terms</a> and have read and acknowledge our <a>Privacy Statement</a>.</h5>
                 </div>
-                <div id="form-footer">
-                  <h5>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</h5>
+                <div class="form-footer">
+                  <h5>Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.</h5>
                 </div>
-              </form>
-             
-            
-            
-          </div>            
-          </div>
+              </form>           
+          </section>
+         </div>
         </div>
       </main>
-      <footer>
-
+      <footer id="footer">
+        <div id="copyright-container" class="style-center">
+          <div id="politics" class="style-center">
+            <a><span>Legal</span></a>
+            <a><span>Privacy</span></a>
+            <a><span>Security</span></a>
+          </div>
+          <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc</span>
+          <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+        </div>
+        <div class="privacy-tab">
+          <span>Privacy Settings</span>
+        </div>
       </footer>
-        
     </body>
 </html>
