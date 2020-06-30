@@ -28,6 +28,13 @@ body {
   padding-top: 2px;
 }
 
+button > span {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-left: 6px;
+}
+
 .navigation-alignment span {
   display: inline-block;
   font-size: 13px;
@@ -57,12 +64,6 @@ body {
   margin-left: 4px;
 }
 
-button > span {
-  font-size: 16px;
-  font-weight: 300;
-  color: white;
-  margin-left: 6px;
-}
 
 #content {
   background-color: transparent;
