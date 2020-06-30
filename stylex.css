@@ -166,8 +166,7 @@ li {
   width: 20px;
   height: 20px;
   margin-right: 6px;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjZDUyYjFlIi8+PHBhdGggZD0iTS01NzkuMSwxMDA1LjdjLTIuOC0yLTUuNi00LjItOC4yLTYuNmMtMSwyLjItMS44LDQuNC0yLjYsNi42YzQuMiwzLjYsOS44LDcuNiwxMy44LDEwIGM1LTEzLDEyLjgtMjEuNCwyMC40LTI3LjRjLTEtMi0yLjItMy44LTMuOC01LjRDLTU2Ny43LDk4OC45LTU3NC4zLDk5Ni43LTU3OS4xLDEwMDUuN3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=)
-    ,no-repeat;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCI+PGNpcmNsZSBjeD0iLTU3My41IiBjeT0iOTk2LjUiIHI9IjI1IiBmaWxsPSIjZDUyYjFlIi8+PHBhdGggZD0iTS01NzkuMSwxMDA1LjdjLTIuOC0yLTUuNi00LjItOC4yLTYuNmMtMSwyLjItMS44LDQuNC0yLjYsNi42YzQuMiwzLjYsOS44LDcuNiwxMy44LDEwIGM1LTEzLDEyLjgtMjEuNCwyMC40LTI3LjRjLTEtMi0yLjItMy44LTMuOC01LjRDLTU2Ny43LDk4OC45LTU3NC4zLDk5Ni43LTU3OS4xLDEwMDUuN3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=) no-repeat;
 }
 
 #form-container {
@@ -205,6 +204,11 @@ form > h5 {
   box-shadow: 0 1px 1px 0 black;
 }
 
+.privacy-tab > span {
+  color: white;
+  margin: auto;
+}
+
 #form-button span {
   font-size: 16px;
   font-weight: 300;
@@ -227,6 +231,12 @@ form > h5 {
   width: 330px;
 }
 
+form div h5 {
+  font-size: 10px;
+  color: #757575;
+  font-weight: lighter;
+}
+
 .statement > h5 {
   font-size: 12px;
   font-style: italic;
@@ -239,12 +249,6 @@ form > h5 {
   padding: 20px 0;
   position: relative;
   width: 100%;
-}
-
-form div h5 {
-  font-size: 10px;
-  color: #757575;
-  font-weight: lighter;
 }
 
 form a {
@@ -261,15 +265,10 @@ form a {
   text-align: center;
   vertical-align: middle;
   font-size: 14px;
-  background-color: #666666;
+  background-color: #6666;
   cursor: pointer;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-}
-
-.privacy-tab > span {
-  color: white;
-  margin: auto;
 }
 
 footer {
