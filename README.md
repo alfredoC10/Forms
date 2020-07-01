@@ -2,7 +2,7 @@
 
 > This one is a mint.com’s signup page clone. To make possible this project we went through a research on how to make HTLM forms, so Input tags were used to elaborate the user information request section. Using anchors and button tags, border styles, background colors, fixed and relative positions and cursor properties, helped us to make buttons. Icons are taken from fontawesome and directly from the images URLs with the aid of Chrome's extention Web Developer. For building labels and desciption texts, we worked mainly with font rules in CSS, like sizing, font family, weight, color, just to mention a few of them. Responsiveness was added to the more generic and main containers, while a tendency to fixed elements and block display can be found in containers inside these first ones. Elements alignment was made by setting margin and padding CSS rules. From the beginning, one of our principal focus was to order code lines and look for those repetitive rules that could be grouped into the less possible number of class selectors in CSS.
 
-![screenshot](/assets/images/formsScreenShot.png)
+![screenshot](https://raw.githubusercontent.com/Huemac-Alfredo/Forms/feature-branch/assets/images/screenshot.PNG)
 
 Additional description about the project and its features.
 
