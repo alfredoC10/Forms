@@ -25,13 +25,13 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Juan Luis González**
 
 - Github: [@githubhandle](https://github.com/JbirdL86)
 - Twitter: [@twitterhandle](https://twitter.com/JuanLui06498455)
 - Linkedin: [linkedin](https://www.linkedin.com/in/juan-luis-0551921aa/)
 
-👤 **Author2**
+👤 **Huemac Alfredo Córdova**
 
 - Github: [@githubhandle](https://github.com/Huemac-Alfredo)
 - Twitter: [@twitterhandle](https://twitter.com/AlfredoHuemac)
