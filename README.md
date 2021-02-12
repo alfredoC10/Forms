@@ -28,7 +28,7 @@ Additional description about the project and its features.
 
 - Github: [@githubhandle](https://github.com/Huemac-Alfredo)
 - Twitter: [@twitterhandle](https://twitter.com/AlfredoHuemac)
-- Linkedin: [linkedin](https://www.linkedin.com/in/huemac-alfredo-c%C3%B3rdova-torres-b28986136/)
+- Linkedin: [linkedin](https://https://www.linkedin.com/in/alfredo-huemac/)
 
 ## 🤝 Contributing
 
